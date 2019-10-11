@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-social/bootstrap-social.css";
 
 class App extends Component {
-  // Downloads oauth.js from CDN, pretty much like adding external scripts
   componentDidMount() {
     const oauthScript = document.createElement("script");
     oauthScript.src =
@@ -20,7 +19,6 @@ class App extends Component {
       console.log(result);
       result.me().done(function(data) {
         alert("Github:" + "\n" + "Name:" + " " + data.name);
-        // do something with `data`, e.g. print data.name
       });
     });
   }
