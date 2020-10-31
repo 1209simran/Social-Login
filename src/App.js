@@ -67,6 +67,7 @@ class App extends Component {
           className="container"
         >
           <button
+          style={{ marginTop: "20px", width:"200px"}}
             onClick={this.handleClick.bind(this)}
             className="btn btn-social btn-github"
           >
@@ -74,6 +75,7 @@ class App extends Component {
           </button>
           <br></br>
           <button
+            style={{ marginTop: "20px", width:"200px"}}
             onClick={this.handleClick1.bind(this)}
             className="btn btn-social btn-facebook"
           >
@@ -81,6 +83,7 @@ class App extends Component {
           </button>
           <br></br>
           <button
+          style={{ marginTop: "20px", width:"200px"}}
             onClick={this.handleClick2.bind(this)}
             className="btn btn-social btn-google"
           >
@@ -88,6 +91,7 @@ class App extends Component {
           </button>
           <br></br>
           <button
+     style={{ marginTop: "20px", width:"200px"}}
             onClick={this.handleClick3.bind(this)}
             className="btn btn-social btn-twitter"
           >
@@ -95,6 +99,7 @@ class App extends Component {
           </button>
           <br></br>
           <button
+        style={{ marginTop: "20px", width:"200px"}}
             onClick={this.handleClick4.bind(this)}
             className="btn btn-social btn-linkedin"
           >
